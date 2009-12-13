@@ -1,0 +1,31 @@
+<% form_for(@item) do |item_form| %>
+  <%= item_form.error_messages %>
+	<%= item_form.hidden_field :menu_id %>
+  <h4>Item Details</h4>
+  <p>
+    <%= item_form.label :name %><br />
+    <%= item_form.text_field :name %>
+  </p>
+  <p>
+    <%= item_form.label :description %><br />
+    <%= item_form.text_area :description %>
+  </p>
+<h3 class="hiddenname">Available Sizes</h3>
+  <div id="sizes">
+	<% item_form.fields_for :size do |size_form| %>
+	<%= render :partial => 'size', :locals => { :f => size_form, :disabled => true } %>
+	<% end %>
+	<%= add_child_link "Add another size", :sizes %>
+  	<%= new_child_fields_template(item_form, :sizes)%>
+  </div>
+  <!-- <h4>Attributes</h4>
+  <p>
+	Spicy? Vegetarian?
+  </p> -->
+<br />
+  <p>
+    <%= item_form.submit 'Submit' %>
+  </p>
+<% end %>
+
+<%= yield :sizes_fields_template %>

@@ -1,0 +1,12 @@
+<div class="menu">
+	<h2>Our Menu</h2>
+<% if !@menus.blank? %>
+	<ul>
+	<% for menu in @menus %>
+	    <li><%= link_to menu.name, menu_items_path(menu) %></li>
+	<% end %>
+	</ul>
+<% else %>
+	<p>We currently don't have our menu online, you can try searching or check back later!</p>
+<% end %>
+</div>

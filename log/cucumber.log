@@ -1,0 +1,551 @@
+# Logfile created on Sat Dec 12 18:55:49 -0500 2009  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 00:56:36', '2009-12-13 00:56:36', NULL, 'Tasty Treat')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.6ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 00:56:42', '2009-12-13 00:56:42', NULL, 'Tasty Treat')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 00:58:15', '2009-12-13 00:58:15', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.6ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 00:59:09', '2009-12-13 00:59:09', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /item/1 with {} and HTTP headers {}
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 00:59:21', '2009-12-13 00:59:21', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 19:59:21) [GET]
+  Parameters: {"id"=>"1"}
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.6ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 00:59:40', '2009-12-13 00:59:40', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 19:59:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 01:02:08', '2009-12-13 01:02:08', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 20:02:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering items/show
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 01:03:32', '2009-12-13 01:03:32', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 20:03:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 01:03:53', '2009-12-13 01:03:53', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 20:03:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 01:44:01', '2009-12-13 01:44:01', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 20:44:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 01:44:01', '2009-12-13 01:44:01', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 01:44:01', '2009-12-13 01:44:01', NULL, 'Smothered in sauce')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 01:53:34', '2009-12-13 01:53:34', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 20:53:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 01:53:34', '2009-12-13 01:53:34', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 01:53:34', '2009-12-13 01:53:34', NULL, 'Smothered in sauce')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 01:53:43', '2009-12-13 01:53:43', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 20:53:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 01:53:43', '2009-12-13 01:53:43', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 01:53:43', '2009-12-13 01:53:43', NULL, 'Smothered in sauce')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 01:57:24', '2009-12-13 01:57:24', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 20:57:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 01:57:24', '2009-12-13 01:57:24', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 01:57:24', '2009-12-13 01:57:24', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 20:57:24) [GET]
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 01:57:36', '2009-12-13 01:57:36', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 20:57:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 01:57:36', '2009-12-13 01:57:36', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 01:57:36', '2009-12-13 01:57:36', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 20:57:36) [GET]
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 01:59:20', '2009-12-13 01:59:20', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 20:59:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 01:59:20', '2009-12-13 01:59:20', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 01:59:20', '2009-12-13 01:59:20', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 20:59:20) [GET]
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 02:04:14', '2009-12-13 02:04:14', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 21:04:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 02:04:14', '2009-12-13 02:04:14', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 02:04:14', '2009-12-13 02:04:14', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 21:04:14) [GET]
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 02:06:19', '2009-12-13 02:06:19', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 21:06:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 02:06:19', '2009-12-13 02:06:19', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 02:06:19', '2009-12-13 02:06:19', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 21:06:19) [GET]
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 02:06:42', '2009-12-13 02:06:42', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 21:06:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 02:06:42', '2009-12-13 02:06:42', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 02:06:42', '2009-12-13 02:06:42', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 21:06:42) [GET]
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 02:14:22', '2009-12-13 02:14:22', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 21:14:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 02:14:22', '2009-12-13 02:14:22', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 02:14:22', '2009-12-13 02:14:22', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 21:14:22) [GET]
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 02:14:51', '2009-12-13 02:14:51', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 21:14:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 02:14:51', '2009-12-13 02:14:51', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 02:14:51', '2009-12-13 02:14:51', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 21:14:51) [GET]
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 02:17:41', '2009-12-13 02:17:41', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 21:17:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 02:17:41', '2009-12-13 02:17:41', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 02:17:41', '2009-12-13 02:17:41', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 21:17:41) [GET]
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.4ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 02:18:09', '2009-12-13 02:18:09', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 21:18:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 02:18:09', '2009-12-13 02:18:09', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 02:18:09', '2009-12-13 02:18:09', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 21:18:09) [GET]
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mItem Create (0.7ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Pizza', '2009-12-13 02:18:16', '2009-12-13 02:18:16', NULL, 'Tasty Treat')[0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+REQUESTING PAGE: GET /items/1 with {} and HTTP headers {}
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-12-12 21:18:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+Rendering items/show
+Completed in 2ms (View: 0, DB: 2) | 200 OK [http://www.example.com/items/1]
+  [4;35;1mItem Create (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Salad', '2009-12-13 02:18:17', '2009-12-13 02:18:17', NULL, 'A healthy alternative')[0m
+  [4;36;1mItem Create (0.1ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "menu_id", "description") VALUES('Wings', '2009-12-13 02:18:17', '2009-12-13 02:18:17', NULL, 'Smothered in sauce')[0m
+REQUESTING PAGE: GET /items with {} and HTTP headers {}
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-12-12 21:18:17) [GET]
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering items/index
+Completed in 1ms (View: 1, DB: 1) | 200 OK [http://www.example.com/items]

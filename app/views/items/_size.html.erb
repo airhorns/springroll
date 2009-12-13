@@ -1,0 +1,9 @@
+<% disabled ||= false 
+noshow = "hiddenname" if disabled %>
+<div class="fields">
+  <%= f.label :name, "Name", :class => noshow %>
+  <%= f.text_field :name, :disabled => disabled, :class => noshow %>
+  <%= f.label :price, "Price" %>
+  $<%= f.text_field :price, :class => "span-1" %>	
+  <%= remove_child_link "remove", f if !disabled %>
+</div>

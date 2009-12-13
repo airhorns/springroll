@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title><%= controller.controller_name %>: <%= controller.action_name %></title>
+<!-- Framework CSS -->
+<%= stylesheet_link_tag 'screen', :media => "screen, projection" %>
+<%= stylesheet_link_tag 'print', :media => "print" %>
+<%= stylesheet_link_tag 'food', :media => "screen, projection" %>
+
+<!--[if lt IE 8]><%= stylesheet_link_tag 'ie', :media => "screen, projection" %><![endif]-->
+    <%= javascript_include_tag 'jquery-1.3.2.min', 'application' %>
+</head>
+<body>
+<div class="container">
+	<div class="header span-20 last">
+		<div class="sidebar span-4 border">
+			<div id="logo"><h1>Tasty Food</h1></div>
+			<div id="cart">
+				<%= render :partial => 'cart/cart' %>
+			</div>
+		</div>
+		<div class="billboard span-16 last">
+			<h2>Get 15% off with this coupon!</h2>
+			<p class="small">Space for rotating product images, coupon offers, tweets</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="content span-20 last">
+		<div class="sidebar span-4 border">
+			<%= render :partial => 'menus/menu_tree' %>
+
+		</div>
+		<div class="span-16 last">
+			<% [:error, :notice, :success].each do |f| %>
+				<% if flash[f] -%>
+				<div class="prepend-1 append-1 span-14 <%= f%> last">
+					<%= flash[f] %>
+				</div>
+				<% end %>
+			<% end %>
+			<%= yield  %>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="footer">
+		<p>Copyright 2009 whoever</p>
+	</div>
+</div>
+</body>
+</html>

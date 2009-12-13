@@ -1,0 +1,11 @@
+.header {
+	border-bottom: 1px solid #DDD;
+	margin: 4px 0;
+	padding: 4px 0;
+}
+.border {
+	border-right: 1px solid #DDD;
+}
+.hiddenname {
+	display: none;
+}
