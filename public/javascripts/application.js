@@ -34,8 +34,8 @@ $(function() {
     $(this).parent().before(content);
 	
 	//Show nice hidden things
-	$('.hiddenname').removeClass('hiddenname');
 	$('input.hiddenname').attr('disabled', false);
+	$('.hiddenname').removeClass('hiddenname');
     return false;
   });
   

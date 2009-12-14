@@ -1,13 +1,16 @@
 <h1><%=h @menu.name %></h1>
 <% if !@items.blank? %>
-<table id="items">
+<div id="items">
   <% for item in @items %>
-    <tr>
-		<td><%= link_to item.name, item_path(item) %></td>
-		<td><%= item.description %></td>
-	</tr>
+    <div class="menu item span-16 last <%= cycle :even, :odd %>">
+		<div class="span-12">
+		<h4><%= link_to item.name, item_path(item) %></h4>
+		<p class="item description"><%= item.description %></p>
+		</div>
+		<div class="item price span-4 last"><%= pricebox(item) %></div>
+	</div>
   <% end %>
-</table>
+</div>
 <% else %>
   <p>This menu doesn't have any items in it, see if you can find what you want in another category.</p>
 <% end %>

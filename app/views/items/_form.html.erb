@@ -10,10 +10,9 @@
     <%= item_form.label :description %><br />
     <%= item_form.text_area :description %>
   </p>
-<h3 class="hiddenname">Available Sizes</h3>
   <div id="sizes">
-	<% item_form.fields_for :size do |size_form| %>
-	<%= render :partial => 'size', :locals => { :f => size_form, :disabled => true } %>
+	<% item_form.fields_for :sizes do |size_form| %>
+	<%= render :partial => 'items/size', :locals => { :f => size_form, :disabled => (@item.new_record? && @item.errors.blank?)} %>
 	<% end %>
 	<%= add_child_link "Add another size", :sizes %>
   	<%= new_child_fields_template(item_form, :sizes)%>

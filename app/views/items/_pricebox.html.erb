@@ -1,0 +1,12 @@
+<% if !item.sizes.blank? %>
+	<% if item.sizes.length == 1 %>
+		<%= size_button(item.sizes[0]) %>
+	<% else %>
+		<span class="small">Multiple Sizes Available</span>
+		<% for size in item.sizes %>
+	    	<%= size_button(size) %>
+		<% end %>
+	<% end %>
+<% else %>
+	Currently Unavailable
+<% end %>

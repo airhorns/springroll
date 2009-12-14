@@ -29,6 +29,7 @@ class ItemsController < ApplicationController
   def new
     @item = Item.new
     @item.menu = @menu
+    @item.sizes.build
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @item }
@@ -43,10 +44,10 @@ class ItemsController < ApplicationController
   # POST /menus/:menu_id/items
   def create
     @item = Item.new(params[:item])
-It    respond_to do |format|
+    respond_to do |format|
       if @item.save
         flash[:notice] = 'Item was successfully created.'
-        format.html { redirect_to(menu_path(@item)) }
+        format.html { redirect_to(menu_path(@item.menu)) }
         format.xml  { render :xml => @item, :status => :created, :location => @item }
       else
         format.html { render :action => "new" }

@@ -9,3 +9,19 @@
 .hiddenname {
 	display: none;
 }
+.fieldWithErrors input { background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4; }
+.menu.item h4 {
+	margin-bottom: 5px;
+}
+.menu.item p.description {
+	margin-left: 15px;
+}
+.menu.item p.price {
+	float:right;
+}
+div.even {
+	background:#e5ecf9;
+}
+.menu.item .button {
+	float: right;
+}
