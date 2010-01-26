@@ -4,7 +4,6 @@ module ItemsHelper
   end
   
   def size_button(size)
-    name = size.name || 'Order'
-    render :partial => 'sizebutton', :locals => {:size => size, :name => name}
+    render :partial => 'sizebutton', :locals => {:size => size}
   end
 end

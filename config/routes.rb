@@ -1,5 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
   # The priority is based upon order of creation: first created -> highest priority.
+  
   map.resources :items
   map.resources :menus do |menu|
     menu.resources :items
@@ -34,8 +35,8 @@ ActionController::Routing::Routes.draw do |map|
   #   end
 
   # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
-  # map.root :controller => "welcome"
-
+  map.root :controller => "menus"
+  
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.

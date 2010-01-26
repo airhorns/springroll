@@ -9,7 +9,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091213045010) do
+ActiveRecord::Schema.define(:version => 20091214234335) do
+
+  create_table "cart_items", :force => true do |t|
+    t.integer  "cart_id"
+    t.integer  "item_id"
+    t.integer  "quantity"
+    t.text     "notes"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "carts", :force => true do |t|
+    t.integer  "user_id"
+    t.boolean  "ordered"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "items", :force => true do |t|
     t.string   "name"

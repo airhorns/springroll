@@ -13,10 +13,18 @@ class ApplicationController < ActionController::Base
   # from your application log (in this case, all fields with names like "password"). 
   filter_parameter_logging :password
   
-  before_filter :current_menu
-  
+  before_filter :find_menus
+  before_filter :find_cart
   private
-  def current_menu
+  def find_menus
     @menus = Menu.find(:all)
+  end
+  
+  def find_cart
+    if session[:cart_id]
+      @cart = Cart.find_by_id(session[:cart_id])
+    else
+      @cart = Cart.save(:ordered => false)
+    end
   end
 end
